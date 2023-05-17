@@ -1,0 +1,10 @@
+<div class="container">
+    <form (ngSubmit)="createOnomatopia()">
+        <h4>Create new Onomatopée</h4>
+        <label>Saissisez votre Onomatopée</label>
+        <input type="string" [(ngModel)]="newOnomatopia" name="newOnomatopia">
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</div>
